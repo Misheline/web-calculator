@@ -4,39 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculator</title>
+    <title>Web-Calculator</title>
+    <h1>Misheline's Web Calculator</h1>
     <link rel="stylesheet" href="style.css" type="text/css">
     <script src="script.js"></script> 
+    
 </head>
-
 <body>
-        <div class="display"
-        <p id="output">0</p>
-    </div>
-
-        <div class="first-row"> 
-            <button id="r1-1" onclick="clearOutput()" style="width: 75px;">AC</button>
-            <button id="r1-1" onclick="fordisplay('+')">+</button>
-        </div>  
-        <div class="second-row">
-            <button id="r2-1" onclick="fordisplay('7')">7</button>
-            <button id="r2-2" onclick="fordisplay('8')">8</button>
-            <button id="r2-3" onclick="fordisplay('9')">9</button>
-         </div> 
-         <div class="third row">
-             <button id="r3-1" onclick="fordisplay('4')">4</button>
-             <button id="r3-2" onclick="fordisplay('5')">5</button>
-             <button id="r3-3" onclick="fordisplay('6')">6</button>
-         </div>
-         <div class="fourth row">
-            <button id="r4-1" onclick="fordisplay('3')">3</button>
-            <button id="r4-2" onclick="fordisplay('2')">2</button>
-            <button id="r4-3" onclick="fordisplay('1')">1</button>
-        </div> 
-        <div class="fifth-row">
-            <button id="r5-1" onclick="fordisplay('0')">0</button>
-            <button id="r5-2" value="=" onclick="solve()">=</button>
-        </table>
-              
+    <input id="Number1"/>
+    <select name="operator" id="operator">
+        <option value="addition">+</option>
+    </select>
+    <input id="Number2"/>
+    <button type="button" onclick="result()"> =</button>
+    <input id="result"></input>
 </body>
 </html>
