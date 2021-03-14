@@ -1,0 +1,28 @@
+  h1 {
+      text-align: center;
+      color: #6d6875;
+  }
+  body {
+      background-color:#ffcdb2;
+}
+input {
+    background-color: #b5838d;
+    text-align: center;
+    height: 50px;
+    height: 50px;
+    font-weight: 900;
+    color: #6d6875;
+    font-size: 20px;
+    margin: center;
+
+}
+select {
+    background-color: #b5838d;
+    font-weight: 900;
+    color: #6d6875;
+}
+button {
+    background-color: #b5838d;
+    font-weight: 900;
+    color: #6d6875;
+}
